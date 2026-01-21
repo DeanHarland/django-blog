@@ -6,3 +6,4 @@ psycopg2==2.9.11
 setuptools==80.9.0
 sqlparse==0.5.5
 tzdata==2025.3
+django-summernote==0.8.20.0
