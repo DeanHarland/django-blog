@@ -1,1 +1,16 @@
 env.py
+*.sqlite3
+db.sqlite3
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+env/
+ENV/
