@@ -4,3 +4,4 @@ os.environ.setdefault(
     "DATABASE_URL", 
     "postgresql://neondb_owner:npg_PaHxl3K6MgYm@ep-empty-mouse-ag7d1h78.c-2.eu-central-1.aws.neon.tech/dab_roman_dart_319825")
 os.environ.setdefault("SECRET_KEY", "")
+os.environ.setdefault("DEBUG", "True")
