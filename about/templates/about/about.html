@@ -2,6 +2,7 @@
 {% block content %}
 {% load static %}
 <div class="container mt-5">
+  {% if about %}
   <div class="row">
     <div class="col-4 text-center">
       <img src="{% static 'images/nobody.jpg' %}" width="75%" />
@@ -20,5 +21,13 @@
       <p class="text-end"><em>Updated on: {{ about.updated_on }}</em></p>
     </div>
   </div>
+  {% else %}
+  <div class="row">
+    <div class="col-12">
+      <h2>About</h2>
+      <p>No about page content has been created yet. Please check back later.</p>
+    </div>
+  </div>
+  {% endif %}
 </div>
 {% endblock content %}
